@@ -1,0 +1,140 @@
+
+
+.topbar-meins {
+    @apply sticky top-0 z-50 bg-white w-full;
+  }
+  .div-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .link-search{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(255, 192, 203, 1) 70%, rgba(242, 233, 235, 1) 100%);
+    border-radius: 25px;
+    padding-right: 40px;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .icon-search{
+    height:3rem;
+    padding-right: 10px;
+  }
+  .icon-search-small{
+    display: none;
+  }
+  .open-in-app{
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+  .open-in-app-button{
+    margin-left: 10px;
+    display: flex;
+    background-color: #da2a3a;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    
+  }
+  .open-in-app-button-small{
+    display: none;
+    
+  }
+  .menu-plus-person-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .icons-home-chats-post{
+   margin-right: 20px;
+   font-size:2rem;
+   color:black;
+   text-align: center;
+  }
+  .icons-search-small{
+    display: none;
+   }
+  .profile-icon{
+    font-size:2rem;
+    color:black;
+    text-align: center;
+  }
+  .profile-image{
+    height: 30px;
+    width: 30px;
+  }
+  .icons-title{
+    display: flex;
+  }
+  .login-signup-buttons{
+    display: flex;
+    flex-direction: column;
+}
+  @media screen and (max-width: 375px) {
+    .profile-icon{
+        margin-right: 0;
+        font-size:1.5rem;
+        color:black
+    }
+    .icons-home-chats-post{
+        margin-right: 10px;
+        font-size:1.5rem;
+        color:black
+    }
+    .profile-image{
+        height: 25px;
+        width: 25px;
+    }
+    .icon-search-small{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 618px) {
+    .div-search{
+      display: none
+    }
+    .link-search{
+      display: none;
+    }
+    .icon-search-small{
+        display: flex;
+        padding-right: 16px;
+        color: black;
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 739px) {
+    .div-search{
+        display: none
+      }
+      .link-search{
+        display: none;
+      }
+    .icon-search-small{
+        display: flex;
+        padding-right: 16px;
+        color: black;
+        font-size: 2rem;
+    }
+    .open-in-app-button-small-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+      .icons-title{
+        display: none;
+      }
+  }
+  @media screen and (max-width: 483px) {
+    .open-in-app-button{
+        display: none;
+  
+    }
+  }
