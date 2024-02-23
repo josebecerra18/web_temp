@@ -1,7 +1,7 @@
 
 
 .topbar-meins {
-    @apply sticky top-0 z-50 bg-white w-full;
+    @apply fixed top-0 z-50 bg-white w-full h-20;
   }
   .div-search{
     display: flex;

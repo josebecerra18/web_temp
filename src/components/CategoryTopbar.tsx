@@ -2,10 +2,8 @@ import CategoriesButtons from "@/commons/CategoriesButtons"
 
 const LeftSideBar = () => {
   return (
-    <div className="">
-       <div className="">
+    <div >
           <CategoriesButtons/>
-      </div>
       </div>
   )
 }
