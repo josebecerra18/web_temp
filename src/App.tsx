@@ -12,7 +12,7 @@ const App = () => {
                 <Route path="/sign-in" element={<LogIn/>}/>
             </Route>
            
-            {/* private route */}
+            {/* private routes */}
             <Route  element={<RootLayout/>}>
               <Route index element={<AnunciosScreen/>}/>
             </Route>
