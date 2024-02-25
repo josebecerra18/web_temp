@@ -5,7 +5,6 @@ import './globals.css'
 
 const App = () => {
   return (
-    <main className="flex h-screen">
         <Routes>
             {/* public routes */}
             <Route  element={<AuthLayout/>}>
@@ -18,7 +17,6 @@ const App = () => {
               <Route index element={<AnunciosScreen/>}/>
             </Route>
         </Routes>
-    </main>
   )
 }
 

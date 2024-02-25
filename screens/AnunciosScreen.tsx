@@ -1,16 +1,15 @@
-
+import React from 'react';
 import {DummyData} from '../DummyData'
 import Card from '../src/components/Card/Card'
+
 const AnunciosScreen = () => {
 
 
   
   return (
     <div className="flex flex-row "  >
-        <div className="flex flex-1 "  style={{backgroundColor: 'purple', }} >
-          Left
-        </div>
-        <div className='flex-none' style={{marginTop:100, width:685,justifyContent: 'center' }}>
+
+        <div className='flex-none mt-10' >
           {DummyData.map((object, index) => {
             return(
              <div >
@@ -21,9 +20,7 @@ const AnunciosScreen = () => {
             )}
             )}
         </div>
-        <div className="flex flex-1" style={{backgroundColor: 'orange', }}>
-          Right
-        </div>
+       
     </div>
   );
 };
