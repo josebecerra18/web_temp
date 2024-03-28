@@ -23,7 +23,7 @@ const mediaPhotos4a =[
     "photoName": "3e731eb6-e039-4bdd-9c24-44db332eedc6.1708134375738.jpg", "photoWidth": 1200}, 
 
 ]
- export const DummyData1=[
+ export const DummyData=[
 {"allowComments": true,
  "category": "VIDASOCIAL",
  "categoryNames": ["undefined", "vidaSocial", "videos"],

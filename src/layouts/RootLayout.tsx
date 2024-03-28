@@ -14,13 +14,13 @@ const RootLayout = () => {
                 <CategoryTopbar />
             </div>
           <div className="flex justify-center w-full min-h-screen pt-32">
-              <div className="min-w-1/5 w-[400px] fixed left-4 z-40 hidden 2xl:block">
+              <div className="lg:w-1/5 md:w-1/4  w-[400px] fixed left-8 z-40 hidden xl:block">
                   <SideLeft />
               </div>
-              <div className="min-w-1/3 max-w-[1000px] sm:max-w-screen-lg">
+              <div className="w-full md:w-full lg:w-3/5 flex justify-center mt-4 px-8 lg:px-8">
                   <Feed />
               </div>
-              <div className="min-w-1/5 w-[400px] fixed right-4 z-40 hidden 2xl:block">
+              <div className="lg:w-1/5 md:w-1/4 w-[400px] fixed right-8 z-40 hidden xl:block">
                   <SideRight />
               </div>
           </div>
